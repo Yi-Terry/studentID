@@ -1,10 +1,21 @@
 package studentIDProject.sidProject;
 
-import java.security.Key;
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.UUID;
 
+/**
+ * TODO:
+ * -git setup
+ * -Write into a print file/read it also
+ * -connect to spring boot(database)
+ * -*search system(looking for key or value)*
+ * -remove function
+ * -edit key only
+ * -sort alphabetical
+ * -get date of birth also(brainstorm)
+ * -UI
+ */
 public class main {
 
 
@@ -18,6 +29,7 @@ public class main {
             Scanner in = new Scanner(System.in);
             System.out.println("How many entries would you like to enter? ");
             int num = kb.nextInt();
+
 
 
             for(int i = 0; i < num; i++){
@@ -37,6 +49,7 @@ public class main {
                 System.out.println("Student ID: "+userValue);
             }
         }
+
     }
 
     public static void main(String[] args) {
